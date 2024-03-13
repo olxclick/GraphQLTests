@@ -6,8 +6,8 @@ namespace Odyssey.MusicMatcher;
 [GraphQLDescription("A curated collection of tracks designed for a specific activity or mood.")]
 public class Playlist
 {
-    [GraphQLDescription("The ID for the playlist.")]
     [ID]
+    [GraphQLDescription("The ID for the playlist.")]
     public string Id { get; }
 
     [GraphQLDescription("The name of the playlist.")]
